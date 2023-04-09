@@ -69,11 +69,7 @@ if(validarEmail_2){
     setError_3(1) 
 }
 
-
 }
-
-
-
   return (
     <div id='contenedorFormulario'>
     <p id='tituloContacto'>CONTACTO</p>

@@ -2,17 +2,11 @@ import axios from 'axios'
 import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { CartContextReducerDentistas } from '../../../context/CartContextReducerDentistas'
-// import DentistaSeleccionado from '../dentistaSeleccionado/DentistaSeleccionado';
-
-
 import "./Dentistas.css";
 
 const Dentistas = () => {
 
 const {state,dispatch} = useContext(CartContextReducerDentistas)
-
-
-
 
 useEffect(() =>{
     const dentistas = axios.get("https://jsonplaceholder.typicode.com/users")
@@ -21,17 +15,9 @@ useEffect(() =>{
     .catch((err) => console.log(err));
 },[])
 
-
-
- 
-
   return ( 
     <div id='contenedorListadoDeDentistas'>
       <p id='tituloDentistas'>DENTISTAS</p>
-
-
-
-
 
 
 <table>
@@ -42,8 +28,6 @@ useEffect(() =>{
       </thead>
 
       <tbody>
-
-
 
 
          {state.dentistas.map(item => (                    
@@ -64,11 +48,6 @@ useEffect(() =>{
       </tbody>
 
 </table>
- 
-
-
-
-
         
     </div> 
   )

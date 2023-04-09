@@ -1,5 +1,4 @@
 #contenedorTarjetaDentistaSeleccionado{
-
     padding-top: 20px;
 
     border: 5 solid black;
@@ -9,7 +8,6 @@
     margin-left: 38%;   
     margin-top: 70px;
     background-color: bisque;
-    
 }
 
 .infoDentista{
@@ -17,18 +15,8 @@
     font-size: 20px;
 }
 
-
-strong{
-    
-}
-
-
 .titulo{
     color: red;
-}
-
-.respuesta{
-
 }
 
 

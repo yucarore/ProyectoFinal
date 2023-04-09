@@ -2,9 +2,6 @@ import React, { createContext, useReducer } from 'react'
 
 export const CartContextReducerDentistas = createContext()
 
-
-
-
 const initialState = {
     dentistas: [],
     isDark: false,
@@ -53,18 +50,14 @@ switch (action.type){
 }
 }
 
-
 const CartContextReducerDentistasProvaider = ({children}) => {
-
 const [state,dispatch] = useReducer(reducerDentistas,initialState)
-
 
   return (
     <div>
          <CartContextReducerDentistas.Provider value={{state,dispatch}}>
           {children}
          </CartContextReducerDentistas.Provider>
-
 
     </div>
   )

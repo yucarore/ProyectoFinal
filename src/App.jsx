@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes ,Route} from 'react-router-dom'
 import './App.css'
-
 import Dentistas from './components/pages/dentistas/Dentistas'
 import DentistasFavoritos from './components/pages/dentistasFavoritos/DentistasFavoritos'
 import Navbar from './components/layout/navbar/Navbar'
@@ -12,12 +11,9 @@ import Home from './components/pages/home/Home'
 
 function App() {
 
-
   return (
-
    
 <BrowserRouter>
-
    <CartContextReducerDentistasProvaider>
      <Routes>
         <Route element={<Navbar/>}>
@@ -34,17 +30,9 @@ function App() {
         <Route path="*" element={<h1>No existe la pagina</h1>} />
      </Routes>
    </CartContextReducerDentistasProvaider>
-     
-       
+           
    </BrowserRouter>
-
    
-   
-
-
-
-
-
   )
 }
 
