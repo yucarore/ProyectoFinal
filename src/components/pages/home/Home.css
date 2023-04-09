@@ -1,0 +1,21 @@
+#imgFondo{
+    margin-top: 10px;
+    width: 600px;
+    height: 400px;
+ 
+    box-shadow: 0px 0px 25px #222; 
+   
+    opacity: 80%;
+}
+
+#bienvenido{
+font-size: 100px;
+}
+
+#tituloHome{
+font-size: 50px;
+}
+
+#nombreDueña{
+    color:hotpink;
+}

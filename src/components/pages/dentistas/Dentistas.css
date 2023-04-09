@@ -1,0 +1,62 @@
+#contenedorListadoDeDentistas{
+   border: 2 solid black;
+   width: 600px;
+   height: 400px;
+
+   margin-left: 30%;   
+   margin-top: 50px;
+}
+
+#botonGuardarDentistaFavoritos{
+
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+#verDetalleDentista{
+    padding: 5px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+table{
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td{
+    /* border: solid 1px; */
+    padding: 5px;
+}
+
+thead{
+    background-color:lightcoral;
+    /* border-bottom:brown solid 2px;  */
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color:  #ddd;
+}
+
+tr:hover td{
+    background-color:indianred;
+    color: white;
+}
+
+
+
+#tituloDentistas{
+padding: 10px;
+}

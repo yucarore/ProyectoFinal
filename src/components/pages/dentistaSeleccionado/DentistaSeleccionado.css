@@ -1,0 +1,111 @@
+#contenedorTarjetaDentistaSeleccionado{
+
+    padding-top: 20px;
+
+    border: 5 solid black;
+    width: 400px;
+    height: 180px;
+ 
+    margin-left: 38%;   
+    margin-top: 70px;
+    background-color: bisque;
+    
+}
+
+.infoDentista{
+    margin: 5px;
+    font-size: 20px;
+}
+
+
+strong{
+    
+}
+
+
+.titulo{
+    color: red;
+}
+
+.respuesta{
+
+}
+
+
+
+
+
+
+
+
+
+
+#contenedorDentistaSeleccionado{
+    border: 2 solid black;
+    width: 600px;
+    height: 400px;
+ 
+    margin-left: 30%;   
+    margin-top: 50px;
+ }
+ 
+ #botonGuardarDentistaFavoritos{
+ 
+     padding: 5px;
+     margin-left: 50px;
+     margin-top: 5px;
+ }
+ 
+ #verDetalleDentista{
+     padding: 5px;
+     margin-left: 50px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ table{
+     width: 100%;
+     background-color: white;
+     text-align: left;
+     border-collapse: collapse;
+ }
+ 
+ th, td{
+     /* border: solid 1px; */
+     padding: 5px;
+ }
+ 
+ thead{
+     background-color:lightcoral;
+     /* border-bottom:brown solid 2px;  */
+     color: white;
+ }
+ 
+ tr:nth-child(even){
+     background-color:  #ddd;
+ }
+ 
+ tr:hover td{
+     background-color:indianred;
+     color: white;
+ }
+
+
+
+ #tituloDentistaSeleccionado{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+#configuracionImgDoctor{
+    width: 80px;
+    height: 80px;
+}
